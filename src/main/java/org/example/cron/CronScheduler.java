@@ -1,4 +1,4 @@
-package org.example;
+package org.example.cron;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 

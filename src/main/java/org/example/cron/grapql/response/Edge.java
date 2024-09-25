@@ -1,4 +1,4 @@
-package org.example.grapql.response;
+package org.example.cron.grapql.response;
 
 public class Edge {
     private Node node;

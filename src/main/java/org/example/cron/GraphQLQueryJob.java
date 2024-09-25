@@ -1,13 +1,12 @@
-package org.example;
+package org.example.cron;
 import okhttp3.*;
-import org.example.grapql.response.GraphQLResponse;
+import org.example.cron.grapql.response.GraphQLResponse;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
+
 import com.google.gson.Gson;
 
 public class GraphQLQueryJob implements Job {
